@@ -1,0 +1,155 @@
+/* Clearing CSS */
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* Parallax component */
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.opening {
+  background-image: url("parallax\ 1.jpg");
+}
+.content {
+  background-image: url("parallax\ 2.jpg");
+}
+.finish {
+  background-image: url("parallax\ 3.jpg");
+}
+
+/* Parallax opening */
+.cta {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  height: 100vh;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  font-size: 44px;
+}
+h1 {
+  font-size: 1em;
+}
+h2 {
+  font-size: 1em;
+}
+.btn {
+  background-color: aqua;
+  width: 150px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(59, 59, 148);
+}
+
+/* Parallax content */
+.text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+.title2 {
+  font-size: 44px;
+}
+h3 {
+  font-size: 1em;
+  color: white;
+}
+p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+}
+.btn2 {
+  background-color: aqua;
+  width: 150px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(59, 59, 148);
+}
+/* Bagian component parallax content */
+.component {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: min-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  color: white;
+  font-size: 3em;
+}
+p {
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+}
+img {
+  width: 240px;
+  border-radius: 60px;
+}
+/* parallax end */
+.part {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+.title3 {
+  font-size: 44px;
+  color: white;
+}
+h1 {
+  font-size: 1em;
+}
+h2 {
+  font-size: 1em;
+}
+.btn3 {
+  background-color: aqua;
+  width: 150px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(59, 59, 148);
+}
